@@ -1,0 +1,338 @@
+/*Common*/
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color:#065bcf;
+  font-family:"Nanum Gothic", sans-serif;
+  margin: 0 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+hr{
+  width:80%;
+  color:#88BAFF;
+}
+
+.h1{
+  margin-top: 300px;
+  padding-top: 170px;
+  font-size:40px;
+  display:flex;
+  font-weight: 900;
+  justify-content: center;
+  text-align: center;
+}
+
+.h1 .about{
+  color:#88BAFF;
+}
+
+.h1 .tab{
+  margin-left : 30px;
+  color:#fff;
+}
+
+
+
+
+
+
+/* navigator */
+
+.top-nav{
+  margin-top:20px;
+  width:100%;
+  height:120px;
+  display:flex;
+  position:fixed;
+  /* margin-left : 500px; */
+  right: 0px;
+}
+
+
+
+.top-nav ul li{
+  background-color:#121a26;
+  float:left;
+  height:50px;
+  vertical-align:center;
+  text-align:center;
+  padding-right:20px;
+  padding-left:20px;
+  display:table;
+}
+
+.nav-list li a{
+
+  font-size:12px;
+  color:#fff;
+  cursor:pointer;
+  display:block;
+  line-height:50px;
+}
+
+.nav-rightright-button button{
+  margin-left: 10px;
+  height:50px;
+  width:120px;
+  background-color:#121a26;
+  font-size:12px;
+  padding:0;
+}
+
+.nav-rightright-button button a{
+  color:#fff;
+}
+
+.nav-rightright-button button a:hover, .top-nav .nav-right-button .nav-list li a:hover{
+  color:#F7A302;
+
+}
+
+.name-tab{
+  position:relative;
+  font-family:"Baloo Bhai", sans-serif;
+  font-size: 220px;
+  color:#fff;
+  text-align:center;
+  line-height:300px;
+  padding-top:300px;
+  background-image: url("./img/icon.png");
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+
+
+
+
+
+/* #1 */
+
+
+.h2-tab{
+  color: #F7A302;
+  font-size: 25px;
+  margin:40px 0;
+  font-weight: 700;
+  padding-bottom:100px;
+}
+.intro{
+  display:flex;
+  justify-content: center;
+}
+
+
+
+.intro-list, .intro-list-explanation{
+  color:#fff;
+  font-size: 15px;
+  line-height: 300%;
+}
+
+.intro-list-explanation{
+  margin-left:30px;
+  text-align: left;
+  padding-right: 70px;
+}
+
+
+.intro img{
+  width:150px;
+  height:150px;
+}
+
+
+/* #2 */
+
+.content-box1{
+  display:flex;
+  justify-content: center;
+  margin : 200px 0;
+}
+
+.content1{
+  padding:50px;
+}
+
+.content1 h2{
+  color:  #F7A302;
+  font-weight: 700;
+  margin: 20px 0;
+  font-size: 20px;
+  padding-bottom:30px;
+}
+
+.content-detail{
+  color:#fff;
+  line-height: 170%;
+  text-align:center;
+}
+
+
+
+
+/* #3 */
+
+
+#Achievements h1 {
+  margin-top: 300px;
+  padding-top: 170px;
+  font-size:40px;
+  font-weight: 900;
+  justify-content: center;
+  text-align: center;
+  color:#fff;
+}
+
+.content-box2{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.content2 img, .content-detail{
+  width:150px;
+}
+
+.content2{
+  padding: 30px;
+}
+
+.content2 h2{
+  color:  #F7A302;
+  padding : 30px 0 20px 0;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom:0px;
+}
+
+
+
+/* #4 */
+
+
+#Application h1 {
+  margin-top: 100px;
+  padding-top: 70px;
+  font-size:40px;
+  font-weight: 900;
+  justify-content: center;
+  text-align: center;
+  color:#fff;
+}
+
+
+.content-box3{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+
+.content-box3 img{
+  width: 250px;
+}
+
+.content-box3 h3{
+    color:  #F7A302;
+    padding : 30px 0 20px 0;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom:20px;
+}
+
+.left-section{
+  padding: 50px;
+}
+
+.link-application{
+  padding: 10px 20px;
+  border: 1px white solid;
+  color:#fff;
+}
+
+.link-application img{
+  background-color:#065bcf;
+  width:20px;
+  padding-left:30px;
+  vertical-align: middle;
+}
+
+.link-application img:hover{
+  background-color:#065bcf;
+  width:20px;
+  padding-left:35px;
+  vertical-align: middle;
+}
+
+.right-section{
+  padding-left:200px;
+}
+
+.application-detail{
+  text-align:left;
+  color:rgba(255,255,255,0.76);
+  line-height:200%;
+}
+
+
+/* #5 */
+
+#FAQ h1 {
+  margin-top: 100px;
+  padding-top: 70px;
+  font-size:40px;
+  font-weight: 900;
+  justify-content: center;
+  text-align: center;
+  color:#fff;
+}
+
+
+.footer{
+  background-color:#000;
+  padding: 30px;
+  color: gray;
+  font-size:10px;
+  text-align:left;
+  line-height: 180%;
+}
+
+/* responsible web */
+@media (min-width: 601px){
+  .verticla-nav-button{
+    display: none;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .content-detail{
+    margin: auto;
+    width: 200px;
+  }
+}
+
+g
+/* mobile */
+ 
